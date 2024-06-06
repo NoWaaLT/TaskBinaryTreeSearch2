@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: changelog/changesets/changeset1.0/changeset1.sql
+  - include:
+      file: changelog/changesets/changeset2.0/changeset2.sql

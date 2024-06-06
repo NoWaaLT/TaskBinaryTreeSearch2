@@ -1,0 +1,4 @@
+changeLogFile: changelog.yml
+url: jdbc:h2:file:~/IdeaProjects/TaskBinaryTreeSearch/src/main/resources/db/db2
+username: sa
+password: ""
