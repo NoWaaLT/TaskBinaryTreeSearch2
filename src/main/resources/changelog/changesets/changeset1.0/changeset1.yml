@@ -1,0 +1,32 @@
+databaseChangeLog:
+  - changeSet:
+      id: Vytautas:1
+      author: Vytautas
+      changes:
+        - createTable:
+            tableName: RECORDS
+            columns:
+              - column:
+                  name: ID
+                  type: INTEGER
+                  autoIncrement: true
+                  constraints:
+                    nullable: false
+              - column:
+                  name: RECORD_TIMESTAMP
+                  type: TIMESTAMP
+                  constraints:
+                    nullable: false
+              - column:
+                  name: WORD
+                  type: VARCHAR(255)
+              - column:
+                  name: POSITION
+                  type: INTEGER
+                  constraints:
+                    nullable: false
+              - column:
+                  name: SOURCE
+                  type: INTEGER
+                  constraints:
+                    nullable: false
