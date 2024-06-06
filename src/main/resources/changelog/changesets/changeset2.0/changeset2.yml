@@ -1,0 +1,12 @@
+databaseChangeLog:
+  - changeSet:
+      id: 2
+      author: Vytautas
+      changes:
+        - addColumn:
+            tableName: RECORDS
+            columns:
+              - column:
+                  name: TEST
+                  type: VARCHAR(255)
+                  defaultValue: NULL
